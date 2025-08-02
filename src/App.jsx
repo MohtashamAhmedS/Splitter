@@ -1,4 +1,5 @@
 import './App.css'
+import Form from './component/Form'
 
 function App() {
   return (
@@ -6,6 +7,8 @@ function App() {
       <div className="logo">
         <h1 className="logo-heading">Splitter.</h1>
       </div>
+
+      <Form />
     </div>
   )
 }
